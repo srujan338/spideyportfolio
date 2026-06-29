@@ -5,6 +5,7 @@ import autoprefixer from 'autoprefixer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/spideyportfolio/',
   plugins: [react()],
   css: {
     postcss: {
